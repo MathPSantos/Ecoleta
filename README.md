@@ -32,6 +32,7 @@
 - 👨‍💻️ [Technologies Used](#%EF%B8%8F-technologies-used)
 - 📦️ [How to install the project](#%EF%B8%8F-how-to-install-the-project)
 - 🤔️ [How can you contribute?](#%EF%B8%8F-how-can-you-contribute)
+- 🔮 [Future Improvements](#%EF%B8%8F-future-improvements)
  
 ## :rocket: Project Summary
 
@@ -66,6 +67,8 @@ This project was developed using the technologies bellow:
   - [Cors](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Controle_Acesso_CORS)
   - [Express](https://expressjs.com/)
   - [Knex](http://knexjs.org/)
+  - [Multer](https://github.com/expressjs/multer#readme)
+  - [Celebrate](https://github.com/arb/celebrate#readme)
 
   **Frontend**
   - [Typescript](https://www.typescriptlang.org/)
@@ -74,8 +77,13 @@ This project was developed using the technologies bellow:
   - [Axios](https://github.com/axios/axios)
   - [Leaflet](https://leafletjs.com/)
   - [React Leaflet](https://react-leaflet.js.org/)
+  - [React Dropzone](https://github.com/react-dropzone/react-dropzone)
 
   **Mobile**
+  - [Expo](https://expo.io/learn)
+  - [Axios](https://github.com/axios/axios)
+  - [React Native Maps](https://github.com/react-native-community/react-native-maps#readme)
+  - [React Native SVG](https://github.com/react-native-community/react-native-svg)
   
 ### Code patterns
 
@@ -88,6 +96,8 @@ This project was developed using the technologies bellow:
 ---
  
 ## 📦️ How to install the project
+
+> [Yarn](https://yarnpkg.com/) is required
 
 To clone the project, use the commands bellow:
 
@@ -116,22 +126,6 @@ To install dependencies and initialize the project, you can use **Yarn** or **NP
   ❯ yarn dev
 ```
 
-**Using npm**
-
-*If you use NPM, delte `yarn.lock` file to see all installed dependencies in the best way.*
-
-```bash
-  # Enter backend directory
-  > cd backend
-  
-  # Install the dependencies
-  ❯ npm install
-
-  # Start the project
-  ❯ npm dev
-```
-Open ```Insomnia``` or ```Postman``` and import the ```Insomnia.json``` workspace file at **backend** folder.
-
 ### Frontend
 
 To install dependencies and initialize the project, you can use **Yarn** or **NPM**:
@@ -147,21 +141,6 @@ To install dependencies and initialize the project, you can use **Yarn** or **NP
 
   # Start the project
   ❯ yarn start
-```
-
-**Using npm**
-
-*If you use NPM, delte `yarn.lock` file to see all installed dependencies in the best way.*
-
-```bash
-  # Enter frontend directory
-  > cd frontend
-  
-  # Install the dependencies
-  ❯ npm install
-
-  # Start the project
-  ❯ npm start
 ```
 
 ### Mobile
