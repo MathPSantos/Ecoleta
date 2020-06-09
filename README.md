@@ -157,8 +157,6 @@ To install dependencies and initialize the project, you can use **Yarn** or **NP
   # Install and start the project
   ❯ yarn start
 ```
-
----
  
 ## 🤔️ How can you contribute?
 
@@ -169,7 +167,28 @@ To install dependencies and initialize the project, you can use **Yarn** or **NP
    - `$ git commit -m "feature: My new feature"`
 4. Submit your branch:
    - `$ git push origin my_feature`
+   
+## 🔮 Future Improvements
 
+### Backend
+  - [ ] Finish CRUD Points
+  - [ ] Create Custon Item
+  - [ ] Add Test with [Jest](https://jestjs.io/)
+  - [ ] Add Celebrate to all routes
+
+### Frontend
+  - [ ] Add window icon
+  - [ ] Seperate components
+  - [ ] Use [styled-components](https://styled-components.com/)
+  - [ ] Add user
+  - [ ] Add Login/Sing Up
+  - [ ] Add Update, Read and Delete Points
+
+### Mobile
+  - [ ] Add launcher icon
+  - [ ] Add Splash Screen
+  - [ ] Add UF and City select
+  
 ---
 
 # License
