@@ -33,13 +33,15 @@
 - 📦️ [How to install the project](#%EF%B8%8F-how-to-install-the-project)
 - 🤔️ [How can you contribute?](#%EF%B8%8F-how-can-you-contribute)
 - 🔮 [Future Improvements](#-future-improvements)
- 
+
+---
 ## :rocket: Project Summary
 
 This Project was in [Rocketseat's](https://rocketseat.com.br/) Next Leve Week crash course #1, with the objective to help people to find garbage collection points and recycle!
 
 > Made only for learning purposes.
  
+---
 ## 👨‍💻️ Technologies Used
 
 This project was developed using the technologies bellow:
@@ -157,6 +159,7 @@ To install dependencies and initialize the project, you can use **Yarn** or **NP
   # Install and start the project
   ❯ yarn start
 ```
+---
  
 ## 🤔️ How can you contribute?
 
@@ -167,6 +170,8 @@ To install dependencies and initialize the project, you can use **Yarn** or **NP
    - `$ git commit -m "feature: My new feature"`
 4. Submit your branch:
    - `$ git push origin my_feature`
+   
+---
    
 ## 🔮 Future Improvements
 
