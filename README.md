@@ -1,11 +1,12 @@
 <p align="center">
-  <img width='300px' src="frontend/src/assets/logo.svg" />
-  </p>
-  
+  <img src="frontend/src/assets/logo.svg" width='200px' />
+	
   <p align="center">
-  App made to help people to find garbage collection points and recycle
+  App made to help people to find garbage collection points and recycle!
   </p>
-
+  <p align="center">
+    <img src=".github/cover.png" width='900px' />
+  </p>
 </p>
 
 <p align="center">
