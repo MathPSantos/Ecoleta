@@ -37,7 +37,7 @@
 ---
 ## :rocket: Project Summary
 
-This Project was in [Rocketseat's](https://rocketseat.com.br/) Next Leve Week crash course #1, with the objective to help people to find garbage collection points and recycle!
+This Project was in [Rocketseat's](https://rocketseat.com.br/) Next Level Week crash course #1, with the objective to help people to find garbage collection points and recycle!
 
 > Made only for learning purposes.
  
@@ -99,7 +99,7 @@ This project was developed using the technologies bellow:
  
 ## 📦️ How to install the project
 
-> [Yarn](https://yarnpkg.com/) is required
+> [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/) or [NPM](https://www.npmjs.com/) are required
 
 To clone the project, use the commands bellow:
 
@@ -128,6 +128,21 @@ To install dependencies and initialize the project, you can use **Yarn** or **NP
   ❯ yarn dev
 ```
 
+**Using npm**
+
+*If you use NPM, delete `yarn.lock` file to see all installed dependencies in the best way.*
+
+```bash
+  # Enter backend directory
+  > cd backend
+  
+  # Install the dependencies
+  ❯ npm install
+
+  # Start the project
+  ❯ npm dev:server
+```
+
 ### Frontend
 
 To install dependencies and initialize the project, you can use **Yarn** or **NPM**:
@@ -143,6 +158,21 @@ To install dependencies and initialize the project, you can use **Yarn** or **NP
 
   # Start the project
   ❯ yarn start
+```
+
+**Using npm**
+
+*If you use NPM, delete `yarn.lock` file to see all installed dependencies in the best way.*
+
+```bash
+  # Enter frontend directory
+  > cd frontend
+  
+  # Install the dependencies
+  ❯ npm install
+
+  # Start the project
+  ❯ npm start
 ```
 
 ### Mobile
@@ -180,6 +210,7 @@ To install dependencies and initialize the project, you can use **Yarn** or **NP
   - [ ] Create Custon Item
   - [ ] Add Test with [Jest](https://jestjs.io/)
   - [ ] Add Celebrate to all routes
+  - [ ] Add Insominia file
 
 ### Frontend
   - [ ] Add window icon
